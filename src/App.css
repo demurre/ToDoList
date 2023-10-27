@@ -1,0 +1,115 @@
+* {
+  font-family: "Satoshi";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	color: #ffffff;
+	background-color: #262c37;
+	padding: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+	font-size: 35px;
+	line-height: 150%;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: text;
+  font-size: 14px;
+  height: 30px;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+button:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(255, 254, 254, 0.25) 0px 8px 15px;
+  transform: translateY(-2px);
+  color: #202124;
+}
+
+button:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+.Todo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #254786;
+  color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  padding: 12px 8px;
+  border-radius: 5px;
+  margin: 0 auto; 
+  margin-bottom: 16px;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  height: 36px;
+  padding: 3px 6px;
+  color: #fff;
+  width: 300px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #262c37;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 10px;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
